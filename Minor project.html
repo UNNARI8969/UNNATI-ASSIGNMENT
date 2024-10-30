@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        #e{grid-area: e1;}
+
+        #maindiv{
+            display: grid;
+            grid-template-areas: 'a1 b1 c1 d1'
+            'e1 e1 e1 e1';
+           /* background-color: rgb(178,130,223);*/
+            color: white;
+            padding: 30px;
+        }
+       #maindiv > div{
+           /* background-color: white;*/
+           /* background- color: transparent;*/
+           border: 1px solid black;
+            color: black;
+            padding:20px;
+            margin:20px;
+            border-radius: 10px 40px;
+            box-shadow: 10px 10px 10px;
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            justify-content: space-evenly;
+           /* width:400px;
+            height:400px; */
+            /* overflow: hidden: */
+        }
+        img{
+            border-radius: 50%;
+           /*border-top-left-radius: 140*/
+        }
+        h1{
+            font-size: 70px;
+            animation-name: anim;
+            animation-iteration-count: 10;
+            animation-duration: 5s;
+            text-align: center;
+        }
+        @keyframes anim{
+            /*from{transform: translateX(0);
+            color:cornflowerblue;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+            to{transform: translateX(500px);
+            color: red;font-family: Arial, Helvetica, sans-serif;}*/
+
+            from{transform: scale(0);}
+           to{transform: scale(1);}
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col a m-3">
+            </div>
+        </div>
+    </div>
+    <h1>Historical places in India</h1>
+    <div id="maindiv">
+    <div id="a">
+        <p>Taj Mahal</p>
+        <img src="https://www.holidify.com/images/attr_square/1020.jpg"
+        width= "400px" class="m-1 b"><br><br>
+        <p>The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal, who died on 17 June that year while giving birth to their 14th child, Gauhara Begum. Construction started in 1632, and the mausoleum was completed in 1648, while the surrounding buildings and garden were finished five years later.<BR><BR>
+            The imperial court documenting Shah Jahan's grief after the death of Mumtaz Mahal illustrates the love story held as the inspiration for the Taj Mahal. According to contemporary historians Muhammad Amin Qazvini, Abdul Hamid Lahori and Muhammad Saleh Kamboh, Shah Jahan did not show the same level of affection for others as he had shown Mumtaz while she was alive.</p>
+    </div>
+    <div id="b">
+        <p>Red Fort, Delhi
+        </p>
+       <img src="https://lh7-us.googleusercontent.com/OBCZyXzcE01JL_BZINushz4nm4lDNGNcl4-k-5PoxZ265trAes6zkgiTGP2adSJ7hyJN3CkkcnTu8f7f0GAI5PtwI34KXb18bL71_ZbWExKUUwMbnP237feFX-gTakT8WvYM1Zegma-3ykqWnklyIg"
+        width= "400px" class="m-1 b"><br><br>
+        <p>The Red Fort Complex was built as the palace fort of Shahjahanabad the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort Complex.<BR><BR>
+            The planning and design of the Red Fort represents a culmination of architectural development initiated in 1526 AD by the first Mughal Emperor and brought to a splendid refinement by Shah Jahan with a fusion of traditions: Islamic, Persian, Timurid and Hindu.Delhi's Red Fort is a magnificent example of Mughal architecture and a UNESCO World Heritage Site.</p>
+    </div>
+    <div id="c">
+        <p> India Gate </p>
+       <img src="https://greenwoodhigh.edu.in/wp-content/uploads/2024/01/image-97.png"
+        width= "400px" class="m-1 b"><br><br>
+        <p>This is a war memorial located near the Karthvaya Path on the eastern edge of New Delhi. This monument was designed by Sir Edwin Lutyens and built in 1921 for those who sacrificed their lives during WWI. The gate stands tall demanding respect and pride at 42 meters tall and bears over 13000 Indian and British soldiers who died in Afghan and world wars. The top of the gate is adorned with India’s national emblem, the Ashoka Chakra with the body resembling Arc de Triomphe in Paris. Made of Red Sandstone, the underneath arch glows an eternal flame symbolizing the sacrifice for the nation.<br><br>
+            At the centre of New Delhi stands the 42 m high India Gate, an "Arc-de-Triomphe" like archway in the middle of a crossroad.</p>
+    </div>
+    <div id="d">
+        <p>Hawa Mahal</p>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4B3oJta8tsboQH6fsbd6nUA55TfOz7IteGA&amp;s" 
+        width= "400px" class="m-1 b"><br><br>
+        <p>The Hawa Mahal is a palace in the city of Jaipur, Rajasthan, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers.<br><br>
+            Hawa Mahal famously known as the “ palace of winds “ has one of the best architecture in Jaipur, Rajasthan. Maharaja Sawai Pratap Singh built this palace in 1799.  Hawa Mahal is considered to be unique as it has many small windows and balconies that seem like a honeycomb.<br><br>
+            In 2006, renovation works on the Mahal were undertaken, after a gap of 50 years, to give a facelift to the monument at an estimated cost of Rs 4.568 million.The corporate sector lent a hand to preserve the historical monuments of Jaipur and the Unit Trust of India has adopted Hawa Mahal to maintain it.</p>
+    </div>
+    <div id="e">
+        <p> Golden Temple, Amritsar</p>
+        <img src="https://lh7-us.googleusercontent.com/l5qnnogA_Qk0X4rpqQTCvtYc7VCI4g3hghtIOWH1lXbJP0_YsxzzLPELDFk0GLT8hj7uOifCqcCMgtJJtgSYuNYSUtOL6uu0KJXN6F_62e6mOIuU6W2cGCcekVf5SweYjHe_jsCyxew4nfzc_bVCFQ"
+        width= "400px" class="m-1 b"><br><br>
+        <p>Also known as Sri Harmandir Sahib, this beautiful religious place of the Sikh community is all about tranquillity, humanity, and brotherhood. The two-storied structure has a unique domed architecture, with its top half clad in pure gold and the other half built with white marble.<br><br>
+            Sri Darbar Sahib, also known as Sri Darbar Sahib or Golden Temple, (on account of its scenic beauty and golden coating for English speaking world), is named after Hari (God) the temple of God. The Sikhs all over the world, daily wish to pay visit to Sri Amritsar and to pay obeisance at Sri Darbar Sahib in their Ardas.<br><br>
+
+            Guru Arjan Sahib, the Fifth Nanak, conceived the idea of creating a central place of worship for the Sikhs and he himself designed the architecture of Sri Darbar Sahib. Earlier the planning to excavate the holy tank (Amritsar or Amrit Sarovar) was chalked out by Guru Amardas Sahib, the Third Nanak, but it was executed by Guru Ramdas Sahib under the supervision of Baba Budha ji. </p>
+    </div>
+
+    </div>
+</body>
+</html>
